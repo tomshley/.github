@@ -15,12 +15,12 @@ Every business runs on the same things around its core: the front doors customer
 | Layer | Repository | What it does | Latest |
 |---|---|---|---|
 | Edge · Surface | [PasteStack](https://github.com/PasteStack) | Server-built pages, interface components and asset bundles, in their own organization. | |
-| Edge · Runtime | [boilerplate-jvm](https://github.com/tomshley/boilerplate-jvm) | Hexagonal building blocks for JVM services, including reqreply and the kafka and twilio adapters. | ![latest](https://img.shields.io/github/v/tag/tomshley/boilerplate-jvm?sort=semver&label=&color=1e1e47) |
-| Rules · Build | [magicroot-sbt](https://github.com/tomshley/magicroot-sbt) | Build plugins that keep the core apart from the outer layers. | ![latest](https://img.shields.io/github/v/tag/tomshley/magicroot-sbt?sort=semver&label=&color=1e1e47) |
-| Outside · Ship & run | [cicd-pipelines](https://github.com/tomshley/cicd-pipelines) | CI templates, runner images and release checks for GitLab and Bitbucket. | ![latest](https://img.shields.io/github/v/tag/tomshley/cicd-pipelines?sort=semver&label=&color=1e1e47) |
-| Outside · Ship & run | [base-containers](https://github.com/tomshley/base-containers) | Small, layered Alpine images for pipelines and services. | ![latest](https://img.shields.io/github/v/tag/tomshley/base-containers?sort=semver&label=&color=1e1e47) |
-| Outside · Ship & run | [workload-templates-k8s](https://github.com/tomshley/workload-templates-k8s) | Kubernetes templates for services and workers. | ![latest](https://img.shields.io/github/v/tag/tomshley/workload-templates-k8s?sort=semver&label=&color=1e1e47) |
-| Outside · Ship & run | [root-modules-tf](https://github.com/tomshley/root-modules-tf) | Terraform and OpenTofu modules for the edge, clusters, networks and data. | ![latest](https://img.shields.io/github/v/tag/tomshley/root-modules-tf?sort=semver&label=&color=1e1e47) |
+| Edge · Runtime | [boilerplate-jvm](https://github.com/tomshley/boilerplate-jvm) | Hexagonal building blocks for JVM services, including reqreply and the kafka and twilio adapters. | ![latest](https://img.shields.io/github/v/tag/tomshley/boilerplate-jvm?sort=date&label=&color=1e1e47) |
+| Rules · Build | [magicroot-sbt](https://github.com/tomshley/magicroot-sbt) | Build plugins that keep the core apart from the outer layers. | ![latest](https://img.shields.io/github/v/tag/tomshley/magicroot-sbt?sort=date&label=&color=1e1e47) |
+| Outside · Ship & run | [cicd-pipelines](https://github.com/tomshley/cicd-pipelines) | CI templates, runner images and release checks for GitLab and Bitbucket. | ![latest](https://img.shields.io/github/v/tag/tomshley/cicd-pipelines?sort=date&label=&color=1e1e47) |
+| Outside · Ship & run | [base-containers](https://github.com/tomshley/base-containers) | Small, layered Alpine images for pipelines and services. | ![latest](https://img.shields.io/github/v/tag/tomshley/base-containers?sort=date&label=&color=1e1e47) |
+| Outside · Ship & run | [workload-templates-k8s](https://github.com/tomshley/workload-templates-k8s) | Kubernetes templates for services and workers. | ![latest](https://img.shields.io/github/v/tag/tomshley/workload-templates-k8s?sort=date&label=&color=1e1e47) |
+| Outside · Ship & run | [root-modules-tf](https://github.com/tomshley/root-modules-tf) | Terraform and OpenTofu modules for the edge, clusters, networks and data. | ![latest](https://img.shields.io/github/v/tag/tomshley/root-modules-tf?sort=date&label=&color=1e1e47) |
 
 What's left to build is your core: the products, rules and ways of serving customers that make your business different. [See how the layers fit together →](https://tomshley.com/labs)
 
